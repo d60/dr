@@ -49,6 +49,7 @@ r = Reserve()
 MORIYAMA_MENU_ID = config['moriyama_menu_id']
 MAIBARA_MENU_ID = config['maibara_menu_id']
 
+# 優先度順に(YYYY, MM, DD, HH, MM)で
 PRIORITIES = [
     [datetime(2025, 6, 16, 8, 30), MORIYAMA_MENU_ID],
     [datetime(2025, 6, 19, 8, 30), MORIYAMA_MENU_ID],
